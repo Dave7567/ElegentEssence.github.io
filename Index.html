@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegent Essence</title>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body style="background: black;">
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/Website Logo.png" width="300px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="E:\Zcas Ncc\Level 4 DC Semester 1\DDW\HTML and CSS\Jewellery Website\Index.html">Home</a></li>
+                    <li><a href="E:\Zcas Ncc\Level 4 DC Semester 1\DDW\HTML and CSS\Jewellery Website\Products.html">Products</a></li>
+                    <li><a href="E:\Zcas Ncc\Level 4 DC Semester 1\DDW\HTML and CSS\Jewellery Website\Au.html">About</a></li>
+                    <li><a href="E:\Zcas Ncc\Level 4 DC Semester 1\DDW\HTML and CSS\Jewellery Website\Contact Us.html">Contact</a></li>
+                    <li><a href="E:\Zcas Ncc\Level 4 DC Semester 1\DDW\HTML and CSS\Jewellery Website\Buy.html">Buy Products</a></li>
+                    <li><a href="E:\Zcas Ncc\Level 4 DC Semester 1\DDW\HTML and CSS\Jewellery Website\Account Page.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        
+        <video autoplay loop muted plays-inline class="vid">
+            <source src="Video/Vid.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Find your sparkle.<br>Find your style.</h1>
+            <p>Our jewelry is created with care and passion,<br>
+            but we believe that love is the most important thing in the world</p>
+                <a href="" class="btn">Explore Now</a>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div class="container">
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="images/Necklace-1.jpg"></div>
+      <div class="swiper-slide"><img src="images/Bracelet-3.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="images/Earing-1.jpg" alt=""></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</div>
+<br>
+<!--Featured Products-->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="E:\Zcas Ncc\Level 4 DC Semester 1\DDW\HTML and CSS\Jewellery Website\Blue Antique Earings.html">
+            <img src="images/Earing-4.jpg">
+            <h4>Blue Antique Earings</h4>
+            <span style="text-rendering:auto;">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <p>$350.00</p>
+            </a>
+        </div>
+        <div class="col-4">
+            <a href="E:\Zcas Ncc\Level 4 DC Semester 1\DDW\HTML and CSS\Jewellery Website\Green Ruby Silver Necklace.html">
+            <img src="images/Necklace-1.jpg">
+            <h4>Green Ruby Silver Necklace</h4>
+            <span style="text-rendering:auto;">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <p>$400.00</p>
+            </a>
+        </div>
+    </div>
+
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="E:\Zcas Ncc\Level 4 DC Semester 1\DDW\HTML and CSS\Jewellery Website\Silver Diamond Watch.html">
+            <img src="images/Watch-1.jpeg">
+            <h4>Silver Diamond Watch</h4>
+            <span style="text-rendering:auto;">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <p>$500.00</p>
+            </a>
+        </div>
+        <div class="col-4">
+            <a href="E:\Zcas Ncc\Level 4 DC Semester 1\DDW\HTML and CSS\Jewellery Website\Gold Diamond Watch.html">
+            <img src="images/Watch-2.jpeg">
+            <h4>Gold Diamond Watch</h4>
+            <span style="text-rendering:auto;">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            <p>$400.00</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--Testimonial-->
+<div class="testmonial">
+    <h2 class="title">Feedback</h2>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                    Hi. I am a Halstead Maker. First and obviously because they <br>
+                    have reasonable wholesale prices. But they're also <br>
+                    super nice. And they are extremely patient whenever I call with some questions.
+                </p>
+            <span style="text-rendering:auto;">&#9733; &#9733; &#9733; &#9733; &#9733;</span><br>
+            <img src="images/girl.jpg">
+            <h3>Reba T. Miller</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                    Great Services and affordable prices. <br>
+                    Thanks Elegent Essence!
+                </p>
+            <span style="text-rendering:auto;">&#9733; &#9733; &#9733; &#9733; &#9733;</span><br>
+            <img src="images/Guy.jfif">
+            <h3>Juan D. Meyer</h3>
+            </div>
+    </div>
+</div>
+
+<!--Brands-->
+<div class="brands">
+    <div class="smll-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/Cartier.jpg">
+            </div>
+            <div class="col-5">
+                <img src="images/Casio.jpg">
+            </div>
+            <div class="col-5">
+                <img src="images/Rolex.jpg">
+            </div>
+            <div class="col-5">
+                <img src="images/Patek.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Downlaod our for Andriod and Ios mobile phone.</p>
+                <img src="images/Playstore.png" width="40%"><br>
+                <img src="images/Appstore.png" width="40%">
+            </div>
+            <div class="footer-col-2">
+                <img src="images/Website Logo.png">
+                <p>Our Purpose is to Sustainbly Make the Pleasure and
+                     Benefits of Jewllery Accessible to Many. </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="CopyRight">CopyRight 2023 - Elegent Essence</p>
+    </div>  
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+
+<!--js for toggle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>
